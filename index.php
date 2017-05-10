@@ -5,8 +5,8 @@
 	<div class="marco">
 		<img src="images/Cabecera.JPG" style="width: 100%; height: auto;" />
 		<tr>
-		<td style="width: 400px; text-align: center;">For data scientist</td>
-		<td style="width: 400px; text-align: center;">For IT professionals</td>
+		<th style="width: 400px; text-align: center;">For data scientist</th>
+		<th style="width: 400px; text-align: center;">For IT professionals</th>
 		</tr>
 		<?php
 		$servername = "us-cdbr-iron-east-03.cleardb.net";
