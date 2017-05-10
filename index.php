@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>PHP Starter Application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 	<div class="marco">
 		<img src="images/Cabecera.JPG" style="width: 100%; height: auto;" />
-		<th style="width: 400px; align: center;">For data scientist</th>
-		<th style="width: 400px; align: center;">For IT professionals</th>
+		<tr>
+		<td style="width: 400px; text-align: center;">For data scientist</td>
+		<td style="width: 400px; text-align: center;">For IT professionals</td>
+		</tr>
 		<?php
 		$servername = "us-cdbr-iron-east-03.cleardb.net";
 		$username = "b74ba3320e82ec";
